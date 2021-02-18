@@ -3,7 +3,7 @@
 1)	Метод Симпсона с контролем погрешности по формуле Рунге;
 2)	Метод Монте-Карло.
 
-* Для парсинга выражения используется библиотека [mxparser](http://mathparser.org/).
+Для парсинга выражения используется библиотека [mxparser](http://mathparser.org/).
 
 ![alt text](Images/image_1.png)
 ![alt text](Images/image_2.png)
