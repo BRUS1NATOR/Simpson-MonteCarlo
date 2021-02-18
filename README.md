@@ -1,29 +1,16 @@
 # README #
+Программа реализует два метода численного интегрирования в следующих комбинациях:
+1)	Метод Симпсона с контролем погрешности по формуле Рунге;
+2)	Метод Монте-Карло.
+Для парсинга выражения используется библиотека [mxparser](http://mathparser.org/).
 
-This README would normally document whatever steps are necessary to get your application up and running.
+![alt text](Images/image_1.png)
+![alt text](Images/image_2.png)
 
-### What is this repository for? ###
+### Результаты вычисления ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Simpson – значение полученное при помощи метода Симпсона, число в скобках показывает количество отрезков.
+*	Runge – значение погрешности полученное при помощи метода Рунге.
+*	Monte Carlo – значение полученное при помощи метода Монте-Карло.
+*	Monte Carlo Error – значение погрешности метода монте карло.
+* Expected – интегральное вычисление при помощи библиотеки mxparser.
